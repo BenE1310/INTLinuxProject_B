@@ -3,7 +3,16 @@
 
 Kernel System Calls
 -------------------
-<Your Answer>
+The program start by setting up its memory and loading necessary shared libraries, then
+It checks for the existence of the "/etc/ld.so.preload" file and opens the
+"/etc/ld.so.cache" and the "libc.so.6" library.
+Memory mappings for these libraries are set up, including read and execute permissions.
+The program sets memory protection on different regions and sets a stack size limit, then,
+the program verifies that a directory named "./welcomeToDevOpsTheHardWay" exists and generates random bytes
+with "getrandom".
+It then opens a file named "goodLuck" within the "welcomeToDevOpsTheHardWay"
+directory for writing.
+The program writes the message "There you go... tell me what I do" into this file.
 
 
 Broken Symlink
