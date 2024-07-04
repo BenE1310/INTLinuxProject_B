@@ -23,4 +23,10 @@ Broken Symlink
 
 Binary Numbers
 --------------
-<Your Answer>
+1. 7, 4, 22.
+2. 0-255 (11111111).
+3. Positive number and negative number, for example:
+    Representing -127:
+    - Positive 127 in binary: 001111111.
+    - Invert the bits: 110000000.
+    - Add 1 to the least significant bit: 110000001 = this represented -127.
