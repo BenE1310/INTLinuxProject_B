@@ -17,7 +17,8 @@ The program writes the message "There you go... tell me what I do" into this fil
 
 Broken Symlink
 -------------------
-<Your Answer>
+What happened is that we broke the link where we changed the path of the link.
+To fix that, we need to create a new link with the current path of the directory.
 
 
 
@@ -30,3 +31,5 @@ Binary Numbers
     - Positive 127 in binary: 001111111.
     - Invert the bits: 110000000.
     - Add 1 to the least significant bit: 110000001 = this represented -127.
+4. IEEE Standard 754 Floating Point Numbers.
+
